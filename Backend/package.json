@@ -4,7 +4,7 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "dev": " node App.js",
+    "dev": " node -r esm src/App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "cloudinary": "^1.37.0",
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
+    "esm": "^3.2.25",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.2.2",
